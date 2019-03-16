@@ -1,4 +1,4 @@
-# Account Rest API for Bifrax (2019-03-10)
+# Account Rest API for gx-ex (2019-03-10)
 # General API Information
 * The base endpoint is: **http://127.0.0.1**
 * All endpoints return either a JSON object or array.
