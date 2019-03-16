@@ -112,7 +112,7 @@ type | LIMIT
 
 `LOCAL`: local currency exchanges
 
-`SPOT`: exchange between coins
+`SPOT`: JGXcash exchange
 
 `FUTURE`: future exchanges
 

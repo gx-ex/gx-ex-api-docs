@@ -50,7 +50,7 @@
 
 `LOCAL`: local currency exchanges
 
-`SPOT`: exchange between coins
+`SPOT`: JGXcash exchange
 
 `FUTURE`: future exchanges
 
@@ -65,7 +65,7 @@ Get current balance information.
 
 Name | Type | Mandatory | Description
 ------------ | ------------ | ------------ | ------------
-exchangeType | STRING | NO | 
+exchangeType | STRING | NO |
 currency | STRING | NO | if not set, all coins
 
 **Response:**
