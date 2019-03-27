@@ -26,7 +26,7 @@ NONE | Endpoint can be accessed freely.
 
 ### Check server time
 ```
-GET /api/v1/time
+GET /v1/time
 ```
 Test connectivity to the Rest API and get the current server time.
 
@@ -48,7 +48,9 @@ GET /v1/exchangeInfo
 Current exchange trading rules and symbol information
 
 **Parameters:**
-NONE
+Name | Type | Mandatory | Description
+------------ | ------------ | ------------ | ------------
+symbol | STRING | YES |
 
 **Response:**
 ```javascript
