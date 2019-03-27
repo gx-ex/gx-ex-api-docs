@@ -48,6 +48,7 @@ GET /v1/exchangeInfo
 Current exchange trading rules and symbol information
 
 **Parameters:**
+
 Name | Type | Mandatory | Description
 ------------ | ------------ | ------------ | ------------
 symbol | STRING | YES |
