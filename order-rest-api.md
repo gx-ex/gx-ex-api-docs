@@ -306,3 +306,31 @@ ClientOrderId | STRING | YES |
 OrderId | STRING | YES |
 exchangeType | STRING | YES | 
 symbol | STRING | YES |
+
+**Response:**
+```javascript
+{
+    "tradeStatus": [
+        {
+            "orderId": "229590",
+            "origOrderId": "0",
+            "clientOrderId": "201903091212229590",
+            "origClientOrderId": "00",
+            "symbol": "BTC/KRW",
+            "tradeType": "NEW_ORDER",
+            "tradeStatus": "OK",
+            "rejectReason": "0",
+            "side": "BUY",
+            "type": "MARKET",
+            "price": "0",
+            "origQty": "0.003",
+            "executedPrice": "4339000",
+            "executedQty": "0.003",
+            "remainedQty": "0",
+            "executedPriceSum": "13017",
+            "tradeFee": "13",
+            "txTime": 1552133565000
+        }
+    ]
+}
+```
