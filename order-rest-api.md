@@ -292,3 +292,17 @@ nextKey | STRING | NO | for Next Page
     ]
 }
 ```
+### tradestaus
+```
+GET /v1/tradeStatus (HMAC SHA256)
+```
+Get all orders; canceled, or filled.
+
+**Parameters:**
+
+Name | Type | Mandatory | Description
+------------ | ------------ | ------------ | ------------
+ClientOrderId | STRING | YES |
+OrderId | STRING | YES |
+exchangeType | STRING | YES | 
+symbol | STRING | YES |
