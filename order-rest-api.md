@@ -296,7 +296,7 @@ nextKey | STRING | NO | for Next Page
 ```
 GET /v1/tradeStatus (HMAC SHA256)
 ```
-Get all orders; canceled, or filled.
+Get one order status
 
 **Parameters:**
 
