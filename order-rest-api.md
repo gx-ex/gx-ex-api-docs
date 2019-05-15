@@ -1,4 +1,4 @@
-# Order Rest API for gx-ex (2019-03-10)
+# Order Rest API for gx-ex (2019-05-15)
 # General API Information
 * The base endpoint is: **http://127.0.0.1**
 * All endpoints return either a JSON object or array.
@@ -292,7 +292,7 @@ nextKey | STRING | NO | for Next Page
     ]
 }
 ```
-### tradestaus
+### trade status
 ```
 GET /v1/tradeStatus (HMAC SHA256)
 ```
