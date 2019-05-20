@@ -297,6 +297,7 @@ nextKey | STRING | NO | for Next Page
 GET /v1/tradeStatus (HMAC SHA256)
 ```
 Get one order status. 
+```
 orderStatus: Submitted, Replaced, Cancelled, PatiallyFilled, Filled, Rejected
 
 **Parameters:**
@@ -330,7 +331,8 @@ symbol | STRING | YES |
             "remainedQty": "0",
             "executedPriceSum": "13017",
             "tradeFee": "13",
-            "txTime": 1552133565000
+            "txTime": 1552133565000,
+            "orderStatus": "Filled"
         }
     ]
 }
